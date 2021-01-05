@@ -1,0 +1,2 @@
+CREATE TABLE zamowienie (id_zamowienia INT NOT NULL PRIMARY KEY AUTO_INCREMENT, id_klienta INT, id_ksiazka INT, id_gry INT, id_gryPC INT,
+Cena_PLN FLOAT, Data_zakupu DATE, Metoda_platnosci VARCHAR(15));
